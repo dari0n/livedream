@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "live_dream_backed"
+version = "0.1.0"
+description = "Сайт Жить-мечтой.рф"
+authors = ["Dari0n <smd26rus@yandex.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^3.2.5"
+Pillow = "^8.3.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
